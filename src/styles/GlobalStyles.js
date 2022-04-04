@@ -11,8 +11,11 @@ const GlobalStyles = createGlobalStyle`
         font-family: ${({ theme }) => theme.fonts.primary};
         background: ${({ theme }) => theme.colors.gradient};
         color: #fff;
-    }
 
+        @media (max-width: 450px) {
+		    margin: 0 5%;
+	    }
+    }
 `
 
 export default GlobalStyles

@@ -7,7 +7,7 @@ export const Container = styled.button`
     min-width: 100px;
     height: 50px;
     outline: none;
-    background-color: ${({ theme }) => theme.colors.primary};
+    background: #78ffd6;
     font-size: 18px;
     cursor: pointer;
     

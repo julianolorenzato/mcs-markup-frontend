@@ -74,7 +74,7 @@ export const Window = () => {
 							getIPCA(12)
 						}}
 					>
-						1 Anos
+						1 Ano
 					</Button>
 					<Button
 						onClick={() => {
